@@ -12,9 +12,9 @@ RE_reserved_words = ""
 RE_noise_words = ""
 RE_operators = ""
 RE_digits = ""
-RE_special_characters = ""
-RE_identifiers = ""
-RE_headers = ""
+RE_special_characters = "[. , + - * / % < > = " " ' ' , ; | ! ( )[ ] _ ^ &]"
+RE_identifiers = "^[a-zA-Z_]+[a-zA-Z0-9_]*"
+RE_headers = "[a-zA-Z]+\.[h]"
 
 #To categorize the Tokens
 
